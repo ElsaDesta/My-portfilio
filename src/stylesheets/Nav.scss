@@ -1,0 +1,21 @@
+@import "./Global.scss";
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: $copy;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    
+     a {
+         color: white;
+         text-decoration:none;
+     }
+}
+
+.nav--items{
+    padding: 3%;
+    
+}

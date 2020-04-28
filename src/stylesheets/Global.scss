@@ -1,0 +1,54 @@
+/* colors */
+$primary-color-1: #145cc6;
+$primary-color-2: #ff0013;
+$primary-color-3: #da980a;
+
+/*font family*/
+$font-Roboto: "Roboto";
+
+/*font size*/
+$h1: 4rem;
+$h2: 2rem;
+$copy: 0.8rem;
+$copy-small: 0.6rem;
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: $copy;
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.title {
+  text-align: right;
+  font-size: $h1;
+  color: white;
+  font-weight: 400;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-size: $copy;
+  height: 100%;
+}
+
+.lines {
+  border-top: solid 3px white;
+  border-bottom: solid 3px white;
+  width: 100vw;
+}
+
+.lines-thin {
+  border-top: solid 0.5px white;
+  border-bottom: solid 0.5px white;
+  width: 100%;
+}
